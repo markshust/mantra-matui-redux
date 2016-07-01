@@ -6,7 +6,7 @@ const onPropsChange = (props, onData) => {
 };
 
 const depsMapper = (context, actions) => ({
-  logout: () => actions.auth.logout(),
+  onClick: () => actions.auth.logout(),
 });
 
 export default composeAll(

@@ -6,7 +6,6 @@ const onPropsChange = (context, onData) => {
 };
 
 const depsMapper = (context, actions) => ({
-  login: actions.auth.login,
   context: () => context,
 });
 

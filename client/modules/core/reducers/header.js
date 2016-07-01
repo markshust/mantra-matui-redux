@@ -1,8 +1,8 @@
-const defaultState = {
+const initialState = {
   title: '',
 };
 
-const reducer = (state = defaultState, {
+const reducer = (state = initialState, {
   title,
   type,
 }) => {
