@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'react-mounter';
 
 import AuthLayout from './components/AuthLayout';
-import Login from './containers/Login';
+import Login from './components/Login';
 
 export default (injectDeps, { FlowRouter }) => {
   const AuthLayoutCtx = injectDeps(AuthLayout);
