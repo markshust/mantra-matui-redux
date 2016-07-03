@@ -11,11 +11,7 @@ const onPropsChange = ({ context }, onData) => {
   });
 };
 
-const depsMapper = context => ({
-  context: () => context,
-});
-
 export default composeAll(
   composeWithRedux(onPropsChange),
-  useDeps(depsMapper),
+  useDeps(),
 )(Header);
