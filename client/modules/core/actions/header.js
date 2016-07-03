@@ -1,4 +1,4 @@
-import routeRootName from '../libs/route-root-name';
+import routeRootName from '../libs/route_root_name';
 
 export default {
   setTitle({ Store }, title) {
